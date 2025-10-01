@@ -28,9 +28,15 @@ The system identifies signs of tampering such as:
 - Modular Pipeline (easy to extend with new detection techniques)
 
 # 📂 Repository Structure
-- AI_Model → Saved AI models
-- requirements.txt → Dependencies
-
+```
+ai-certificate-verifier/
+├── AI_Model/               # Core source code for OCR + forgery detection pipeline
+│   |
+│   └── main.py             # Entry point for running the verifier
+├── tampering_report.csv     # output report (file status, score, details)
+├── requirements.txt         # Project dependencies
+|___README.md                # Project documentation
+```
 # 🚀 Getting Started
 1. Clone the repository
 ```
