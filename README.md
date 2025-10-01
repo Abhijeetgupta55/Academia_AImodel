@@ -38,8 +38,8 @@ The system identifies signs of tampering such as:
 # 🚀 Getting Started
 1. Clone the repository
 ```
-git clone https://github.com/your-username/ai-certificate-verifier.git
-cd ai-certificate-verifier
+git clone <repository-url>
+cd academia_ai
 ```
 
 # 2. Install dependencies
