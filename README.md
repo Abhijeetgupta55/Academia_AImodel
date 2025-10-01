@@ -28,11 +28,7 @@ The system identifies signs of tampering such as:
 - Modular Pipeline (easy to extend with new detection techniques)
 
 # 📂 Repository Structure
-- src/ → Core modules (OCR, forgery detection, noise analysis, utils)
-- models/ → Saved AI/ML models
-- data/ → Sample documents for testing
-- notebooks/ → Jupyter notebooks (prototyping & experiments)
-- tests/ → Unit tests for pipeline validation
+- AI_Model → Saved AI models
 - requirements.txt → Dependencies
 
 # 🚀 Getting Started
@@ -48,7 +44,7 @@ pip install -r requirements.txt
 ```
 # 3. Run the pipeline
 ```
-python src/main.py --input data/sample_fake.pdf
+python AI_Model/main.py --input data/sample_fake.pdf
 ```
 
 # 📦 Dependencies
@@ -73,16 +69,17 @@ result = run_verification("data/sample_fake.pdf")
 print(result)
 # Output: {"status": "fraudulent", "reasons": ["Font mismatch", "Editing hotspots detected"]}
 ```
-# 📊 Results
+# 📊 Sample Results
+The verifier outputs results in a tabular format summarizing each certificate’s tampering status, score, and details of anomalies detected.
 
-- Sample real certificate → ✅ Verified
-
-- Sample forged certificate → ❌ Fraud detected (font mismatch + editing artifacts)
+| File      | Tampering Status       | Score    | Details   |                                                                                                                |
+|-----------|------------------------| ---------|-----------|
+| 1.img1    | Authentic Certificate  |          |           |                                                                                                                 
+| 2.img2    | Suspicious             |          |           |
+| 3.img3    | Suspicious             |          |           |
 
 # 📌 Future Work
 
 - Deep learning–based forgery detection
-
-- Blockchain integration for certificate verification
 
 - Larger dataset for improved model accuracy
