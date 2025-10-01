@@ -76,12 +76,11 @@ print(result)
 ```
 # 📊 Sample Results
 The verifier outputs results in a tabular format summarizing each certificate’s tampering status, score, and details of anomalies detected.
-
-| File      | Tampering Status       | Score    | Details   |                                                                                                                |
-|-----------|------------------------| ---------|-----------|
-| 1.img1    | Authentic Certificate  |          |           |                                                                                                                 
-| 2.img2    | Suspicious             |          |           |
-| 3.img3    | Suspicious             |          |           |
+| File      | Tampering Status | Score | Details |
+|-----------|-----------------|-------|---------|
+| 1.img1    | Authentic Certificate |       |         |
+| 2.img2    | Suspicious            |       |         |
+| 3.img3    | Suspicious            |       |         |
 
 # 📌 Future Work
 
