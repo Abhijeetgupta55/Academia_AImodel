@@ -31,7 +31,6 @@ The system identifies signs of tampering such as:
 ```
 ai-certificate-verifier/
 ├── AI_Model/               # Core source code for OCR + forgery detection pipeline
-│   |
 │   └── main.py             # Entry point for running the verifier
 ├── tampering_report.csv     # output report (file status, score, details)
 ├── requirements.txt         # Project dependencies
