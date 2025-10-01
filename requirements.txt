@@ -1,0 +1,16 @@
+opencv-python
+pytesseract
+Pillow
+easyocr
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+opencv-python
+pytesseract
+pdf2image
+spacy
+scikit-learn
+scikit-image
+piexif
+python-dateutil
